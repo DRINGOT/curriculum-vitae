@@ -1,149 +1,160 @@
-body{ 
-margin:0;
-padding:0;
-background-image:url("https://fotomelia.com/wp-content/uploads/2016/03/images-gratuites-creative-commons-cco-146-1560x1020.jpg") ; 
--webkit-background-size: cover; 
--moz-background-size: cover;
-background-size: cover; 
--o-background-size: cover;
-background-size: cover; 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://fotomelia.com/wp-content/uploads/2016/03/images-gratuites-creative-commons-cco-146-1560x1020.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* start header */
-h1{
-background-image:url("https://c.wallhere.com/photos/e2/ca/surface_background_dark_spots-701877.jpg!d");    
-background-position:center;
-background-color:rgb(83, 83, 99);
-box-shadow:5px 5px 5px rgb(177, 171, 171);  
-font-family: 'Oldenburg', cursive;
-font-weight:bold;
-font-size:23px; 
-letter-spacing:10px;
-word-spacing:0rem;
-text-align:center;
-border-radius:20px;   
-color:rgb(177, 171, 171);
+h1 {
+    background-image: url("https://c.wallhere.com/photos/e2/ca/surface_background_dark_spots-701877.jpg!d");
+    background-position: center;
+    background-color: rgb(83, 83, 99);
+    box-shadow: 5px 5px 5px rgb(177, 171, 171);
+    font-family: 'Oldenburg', cursive;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 10px;
+    word-spacing: 0rem;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(177, 171, 171);
 }
 /* end of header bar */
 
 /*start of nav bar*/
-nav{
-background-image:url("https://c.wallhere.com/photos/e2/ca/surface_background_dark_spots-701877.jpg!d");
-background-position:center;
-border-radius:5px;
-box-shadow:5px 5px 5px rgb(177, 171, 171);
+
+nav {
+    background-image: url("https://c.wallhere.com/photos/e2/ca/surface_background_dark_spots-701877.jpg!d");
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(177, 171, 171);
 }
 
-li a{
-display:block;
-color:rgb(177, 171, 171);
-text-align:center;
-text-decoration:none;
-font-family: 'Oldenburg', cursive;
-font-weight:bold;
-font-size:14px; 
-letter-spacing:2px;
-padding:8px 16px;    
+li a {
+    display: block;
+    color: rgb(177, 171, 171);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oldenburg', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 8px 16px;
 }
 
-li a:hover{
-background-color:#000000;
-color:rgb(177, 171, 171);
+li a:hover {
+    background-color: #000000;
+    color: rgb(177, 171, 171);
 }
 
-ul{
-    padding:0;
-overflow:hidden;
-margin-top:-9px;
-margin-bottom:0px; 
+ul {
+    padding: 0;
+    overflow: hidden;
+    margin-top: -9px;
+    margin-bottom: 0px;
 }
 
-hr{
-width:97%;
-height:2px;
-opacity:.25;
-background-color:rgb(177, 171, 171);
-margin-top:-9px;
-margin-bottom:0px;
+hr {
+    width: 97%;
+    height: 2px;
+    opacity: .25;
+    background-color: rgb(177, 171, 171);
+    margin-top: -9px;
+    margin-bottom: 0px;
 }
 /*end of nav bar*/
 
 /* main */
-h2{
-font-family:'Oldenburg', cursive;
-font-size:40px;
-letter-spacing:7px;
-text-align:center;
-color: #ffffff;
-padding-left: 350px;
-padding-right: 350px;
-margin-left: 250px;
-margin-right: 250px;
+
+h2 {
+    font-family: 'Oldenburg', cursive;
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 /* Picture*/
+
 img#moi {
-	max-width: 10%;
-	height: auto;
+    max-width: 10%;
+    height: auto;
     margin-right: 5rem;
     margin-left: 20rem;
-    float:right;
+    float: right;
 }
 /* End picture */
 
-p{
-font-family:'Oldenburg', cursive;
-font-size:22px;
-text-align:justify;
-color: #ffffff;
-padding-left: 350px;
-padding-right: 350px;
-margin-left: 250px;
-margin-right: 250px;
+p {
+    font-family: 'Oldenburg', cursive;
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-h3{font-family:'Oldenburg', cursive;
-font-size:22px;
-text-align:center;
-color: #ffffff;
-padding-left: 350px;
-padding-right: 350px;
-margin-left: 250px;
-margin-right: 250px;
-
+h3 {
+    font-family: 'Oldenburg', cursive;
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
+
 /* table in education */
-table{
-margin-right: auto;
-margin-left: auto;
-font-family:'Oldenburg', cursive;
-font-size:22px;
-color: #ffffff;
-padding-left: 350px;
-padding-right: 350px;
-margin-left: 250px;
-margin-right: 250px;
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Oldenburg', cursive;
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-th{
-    text-align:center;
+th {
+    text-align: center;
 }
 
-td{
-text-align: justify;
-padding-left: 20px;
+td {
+    text-align: justify;
+    padding-left: 20px;
 }
 /* end of table */
-section{
-font-weight:lighter;
-text-align:center;
+
+section {
+    font-weight: lighter;
+    text-align: center;
 }
 
-.years{    
-font-weight:bold;
-text-align:center
+.years {
+    font-weight: bold;
+    text-align: center
 }
 /* end of main */
 
-p#links{text-align:center;}
-p#TOP{margin-left:0rem;}
+p#links {
+    text-align: center;
+}
+
+p#TOP {
+    margin-left: 0rem;
+}
