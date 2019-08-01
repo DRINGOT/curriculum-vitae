@@ -1,7 +1,7 @@
 body{ 
 margin:0;
 padding:0;
-background-image:url("https://fotomelia.com/wp-content/uploads/edd/2016/02/photos-gratuites-libres-de-droits-51-1560x1040.jpg") ; 
+background-image:url("https://fotomelia.com/wp-content/uploads/2016/03/images-gratuites-creative-commons-cco-146-1560x1020.jpg") ; 
 -webkit-background-size: cover; 
 -moz-background-size: cover;
 background-size: cover; 
@@ -52,33 +52,27 @@ color:rgb(177, 171, 171);
 }
 
 ul{
-padding:0;
-overflow:hidden; 
+    padding:0;
+overflow:hidden;
+margin-top:-9px;
+margin-bottom:0px; 
 }
 
 hr{
-width:95%;
+width:97%;
 height:2px;
-opacity:0.3;
+opacity:.25;
 background-color:rgb(177, 171, 171);
-margin-top:0px;
+margin-top:-9px;
 margin-bottom:0px;
 }
 /*end of nav bar*/
 
 /* main */
 h2{
-font-family:'Pirata One', cursive;
+font-family:'Oldenburg', cursive;
 font-size:40px;
 letter-spacing:7px;
-text-align:center;
-color: #ffffff;
-padding: auto;
-}
-
-p{
-font-family:'Oldenburg', cursive;
-font-size:22px;
 text-align:center;
 color: #ffffff;
 padding-left: 350px;
@@ -87,13 +81,43 @@ margin-left: 250px;
 margin-right: 250px;
 }
 
-/* faire modif padding etc */
+/* Picture*/
+img#moi {
+	max-width: 10%;
+	height: auto;
+    margin-right: 5rem;
+    margin-left: 20rem;
+    float:right;
+}
+/* End picture */
+
+p{
+font-family:'Oldenburg', cursive;
+font-size:22px;
+text-align:justify;
+color: #ffffff;
+padding-left: 350px;
+padding-right: 350px;
+margin-left: 250px;
+margin-right: 250px;
+}
+
+h3{font-family:'Oldenburg', cursive;
+font-size:22px;
+text-align:center;
+color: #ffffff;
+padding-left: 350px;
+padding-right: 350px;
+margin-left: 250px;
+margin-right: 250px;
+
+}
+/* table in education */
 table{
 margin-right: auto;
 margin-left: auto;
 font-family:'Oldenburg', cursive;
 font-size:22px;
-text-align:center;
 color: #ffffff;
 padding-left: 350px;
 padding-right: 350px;
@@ -101,15 +125,25 @@ margin-left: 250px;
 margin-right: 250px;
 }
 
-td{
-text-align: right
+th{
+    text-align:center;
 }
 
+td{
+text-align: justify;
+padding-left: 20px;
+}
+/* end of table */
 section{
 font-weight:lighter;
+text-align:center;
 }
 
 .years{    
 font-weight:bold;
+text-align:center
 }
 /* end of main */
+
+p#links{text-align:center;}
+p#TOP{margin-left:0rem;}
