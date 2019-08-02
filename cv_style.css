@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://fotomelia.com/wp-content/uploads/edd/2015/03/arri%C3%A8re-plan-abstrait-1560x878.png");
+    background-image: url("https://fotomelia.com/wp-content/uploads/2017/11/wwwfotomeliacom-images-gratuites-71-1560x1040.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,7 +93,12 @@ h2 {
 img#moi {
     max-width: 10%;
     height: auto;
-    float: right;
+    border: .2rem solid white;
+    right: 2.5rem;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    z-index: 1; 
 }
 
 /* End picture */
@@ -119,8 +124,7 @@ h3 {
 /* table in education */
 
 table {
-    margin-right: auto;
-    margin-left: auto;
+    box-sizing: border-box;
     font-family: 'Oldenburg', cursive;
     font-size: 2.2rem;
     color: #ffffff;
@@ -133,8 +137,10 @@ th {
 }
 
 td {
-    text-align: justify;
+    text-align: center;
     padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* end of table */
