@@ -18,7 +18,7 @@ h1 {
     background-image: url("https://c.wallhere.com/photos/e2/ca/surface_background_dark_spots-701877.jpg!d");
     background-position: center;
     background-color: rgb(83, 83, 99);
-    box-shadow: 5px 5px 5px rgb(177, 171, 171);
+    box-shadow: .5rem .5rem .5rem rgb(177, 171, 171);
     font-family: 'Oldenburg', cursive;
     font-weight: bold;
     font-size: 2.3rem;
@@ -80,13 +80,11 @@ hr {
 h2 {
     font-family: 'Oldenburg', cursive;
     font-size: 4rem;
-    letter-spacing: 7px;
+    letter-spacing: .7rem;
     text-align: center;
     color: #ffffff;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -105,12 +103,10 @@ img#moi {
 p {
     font-family: 'Oldenburg', cursive;
     font-size: 2.2rem;
-    text-align: justify;
+    text-align: center;
     color: #ffffff;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -119,10 +115,8 @@ h3 {
     font-size: 2.2rem;
     text-align: center;
     color: #ffffff;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -134,10 +128,8 @@ table {
     font-family: 'Oldenburg', cursive;
     font-size: 2.2rem;
     color: #ffffff;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
