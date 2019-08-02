@@ -142,6 +142,13 @@ td {
     margin-left: auto;
     margin-right: auto;
 }
+td#propos{
+    text-align: center;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 23rem;
+}
 
 /* end of table */
 
