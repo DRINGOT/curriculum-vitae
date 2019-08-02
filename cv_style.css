@@ -1,5 +1,6 @@
 html{
     font-size: 10px;
+    box-sizing: border-box
 }
 body {
     margin: 0;
@@ -82,11 +83,12 @@ h2 {
     letter-spacing: 7px;
     text-align: center;
     color: #ffffff;
-    padding-left: 350rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    padding-left: 35rem;
     padding-right: 35rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
 }
+
 
 /* Picture*/
 
@@ -105,22 +107,24 @@ p {
     font-size: 2.2rem;
     text-align: justify;
     color: #ffffff;
+    margin-left: 18rem;
+    margin-right: 18rem;
     padding-left: 35rem;
     padding-right: 35rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
 }
+
 
 h3 {
     font-family: 'Oldenburg', cursive;
     font-size: 2.2rem;
     text-align: center;
     color: #ffffff;
+    margin-left: 18rem;
+    margin-right: 18rem;
     padding-left: 35rem;
     padding-right: 35rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
 }
+
 
 /* table in education */
 
@@ -130,11 +134,12 @@ table {
     font-family: 'Oldenburg', cursive;
     font-size: 2.2rem;
     color: #ffffff;
+    margin-left: 18rem;
+    margin-right: 18rem;
     padding-left: 35rem;
     padding-right: 35rem;
-    margin-left: 25rem;
-    margin-right: 25rem;
 }
+
 
 th {
     text-align: center;
