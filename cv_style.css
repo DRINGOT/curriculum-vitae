@@ -98,7 +98,6 @@ img#moi {
     display: inline-block;
     align-items: center;
     position: absolute;
-    z-index: 1; 
 }
 
 /* End picture */
@@ -121,7 +120,7 @@ h3 {
     margin-right: auto;
 }
 
-/* table in education */
+/* table */
 
 table {
     box-sizing: border-box;
@@ -142,12 +141,23 @@ td {
     margin-left: auto;
     margin-right: auto;
 }
-td#propos{
+
+td#propos {
     text-align: center;
     padding-left: 2rem;
     margin-left: auto;
     margin-right: auto;
     padding-right: 23rem;
+}
+
+td.formation {
+    box-sizing: border-box;
+    font-family: 'Oldenburg', cursive;
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 
 /* end of table */
